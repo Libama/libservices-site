@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0878c9">
+  <meta name="description" content="Lib’Services accompagne vos projets en communication visuelle, impression, informatique et formation à Franceville, Gabon.">
+  <title>Lib’Services — Transformez vos idées en résultats</title>
+  <link rel="preload" as="image" href="assets/logo.jpeg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="accueil">
+    <div class="container nav">
+      <a class="brand" href="#accueil" aria-label="Lib’Services, accueil">
+        <img src="assets/logo.jpeg" alt="" class="brand-logo">
+        <span>Lib’<b>Services</b></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">☰</button>
+      <nav class="nav-links" id="main-nav" aria-label="Navigation principale">
+        <a href="#services">Services</a><a href="#realisations">Réalisations</a><a href="#formation">Formation</a><a href="#contact" class="button button-small">Parler d’un projet <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Créativité · Technologie · Compétences</p>
+          <h1>Transformez vos idées en <span>résultats.</span></h1>
+          <p class="hero-lede">Lib’Services donne vie à vos projets grâce à la communication visuelle, l’impression, les solutions informatiques et la formation pratique.</p>
+          <div class="hero-actions"><a class="button" href="#contact">Parlons de votre projet <span>↗</span></a><a class="text-button" href="#realisations">Voir nos réalisations <span>↓</span></a></div>
+          <div class="location-note"><span class="location-icon">⌖</span><span><strong>Franceville, Gabon</strong><small>Un partenaire de proximité pour vos idées.</small></span></div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-image-frame"><img src="assets/img1header.jpg" alt="Impression de cartes de visite en cours de production"></div>
+          <div class="floating-note note-blue"><span class="note-icon">✳</span><span><strong>Lib’s Print</strong><small>Vos idées, sur support.</small></span></div>
+          <div class="floating-note note-orange"><span class="note-icon">⌘</span><span><strong>Lib’s Tech</strong><small>Le numérique au quotidien.</small></span></div>
+          <div class="visual-caption">De la conception à la réalisation.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="value-strip"><div class="container value-grid">
+      <div><span class="value-number">01</span><span><strong>Création & impression</strong><small>Une image qui vous ressemble</small></span></div>
+      <div><span class="value-number">02</span><span><strong>Solutions informatiques</strong><small>Des outils pour avancer</small></span></div>
+      <div><span class="value-number">03</span><span><strong>Formation pratique</strong><small>Des compétences qui grandissent</small></span></div>
+    </div></section>
+
+    <section class="section-pad" id="services"><div class="container">
+      <div class="section-heading reveal"><div><p class="eyebrow eyebrow-orange">Nos expertises</p><h2>Trois pôles.<br><span>Un même engagement.</span></h2></div><p>Des solutions adaptées à votre besoin, votre public et vos objectifs — avec une attention particulière portée à la qualité du rendu.</p></div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="service-icon icon-blue">✳</div><p class="card-index">PÔLE 01</p><h3>Lib’s Print</h3><p>Des supports visuels soignés pour faire connaître votre activité et valoriser votre marque.</p><ul><li>Logos et identité visuelle</li><li>Flyers, affiches et banderoles</li><li>Cartes de visite et menus</li><li>T-shirts personnalisés</li></ul><a class="inline-link" href="#contact" data-service="Impression et communication visuelle">Demander un devis <span>↗</span></a></article>
+        <article class="service-card reveal"><div class="service-icon icon-orange">⌘</div><p class="card-index">PÔLE 02</p><h3>Lib’s Tech</h3><p>Un accompagnement numérique et informatique pour travailler plus sereinement.</p><ul><li>Maintenance informatique</li><li>Sites web vitrines</li><li>Installation et assistance</li><li>Conseil en solutions numériques</li></ul><a class="inline-link" href="#contact" data-service="Informatique et solutions numériques">Demander un devis <span>↗</span></a></article>
+        <article class="service-card reveal" id="formation"><div class="service-icon icon-green">▣</div><p class="card-index">PÔLE 03</p><h3>Lib’s Academy</h3><p>Une approche pratique pour développer l’autonomie et les compétences numériques.</p><ul><li>Bureautique : Word, Excel, PowerPoint</li><li>Design : Photoshop et Canva</li><li>Initiation au web</li><li>Accompagnement personnalisé</li></ul><a class="inline-link" href="#contact" data-service="Formation et accompagnement">Parler d’une formation <span>↗</span></a></article>
+      </div>
+    </div></section>
+
+    <section class="portfolio-section section-pad" id="realisations"><div class="container">
+      <div class="section-heading reveal"><div><p class="eyebrow eyebrow-orange">Du concret, en images</p><h2>Nos réalisations<br><span>et notre quotidien.</span></h2></div><p>Quelques aperçus de travaux d’impression, de personnalisation textile et de séances de formation.</p></div>
+      <div class="filter-row" role="group" aria-label="Filtrer les réalisations">
+        <button class="filter-button active" data-filter="all">Tout voir</button><button class="filter-button" data-filter="print">Impression</button><button class="filter-button" data-filter="textile">Textile</button><button class="filter-button" data-filter="formation">Formation</button><button class="filter-button" data-filter="lieu">Notre lieu</button>
+      </div>
+      <div class="gallery-grid">
+         <article class="gallery-card reveal" data-category="textile"><div class="gallery-image"><img src="assets/tshirt-rougier.jpg" alt="T-shirt blanc personnalisé avec le logo Rougier" loading="lazy"><span class="image-tag">Textile personnalisé</span></div><div class="gallery-meta"><h3>T-shirt Rougier</h3><p>Personnalisation textile avec le logo de la marque et les couleurs du Gabon.</p></div></article>       
+        <article class="gallery-card reveal" data-category="print"><div class="gallery-image"><img src="assets/pose-banderole.jpg" alt="Pose d’une banderole grand format par Lib’Services" loading="lazy"><span class="image-tag">Banderole · Grand format</span></div><div class="gallery-meta"><h3>Installation grand format</h3><p>Préparation et pose d’un support de communication événementielle.</p></div></article>
+
+       
+        <article class="gallery-card reveal" data-category="print"><div class="gallery-image"><img src="assets/impression-cartes.jpeg" alt="Cartes de visite imprimées" loading="lazy"><span class="image-tag">Impression</span></div><div class="gallery-meta"><h3>Supports professionnels</h3><p>Des cartes de visite prêtes à valoriser votre activité.</p></div></article>
+        <article class="gallery-card reveal" data-category="lieu"><div class="gallery-image"><img src="assets/local-franceville.jpeg" alt="Vue extérieure du lieu d’activité à Franceville" loading="lazy"><span class="image-tag">Franceville</span></div><div class="gallery-meta"><h3>Un ancrage local</h3><p>Un lieu de proximité pour échanger sur vos projets.</p></div></article>
+        <article class="gallery-card reveal" data-category="formation"><div class="gallery-image"><img src="assets/stagiaires-presentation.jpeg" alt="Stagiaires pendant une présentation" loading="lazy"><span class="image-tag">Formation</span></div><div class="gallery-meta"><h3>Apprendre en pratiquant</h3><p>Des présentations et des exercices tournés vers la pratique.</p></div></article>
+        <article class="gallery-card reveal" data-category="formation"><div class="gallery-image"><img src="assets/stagiaires-formation.jpeg" alt="Séance de formation avec des stagiaires face à un écran" loading="lazy"><span class="image-tag">Accompagnement</span></div><div class="gallery-meta"><h3>Partager les compétences</h3><p>Un cadre d’apprentissage et de progression.</p></div></article>
+        <article class="gallery-card reveal" data-category="formation"><div class="gallery-image"><img src="assets/formation-bureau.jpeg" alt="Travail sur des documents pendant une séance d’accompagnement" loading="lazy"><span class="image-tag">Travail d’équipe</span></div><div class="gallery-meta"><h3>Des compétences utiles</h3><p>Le numérique et les outils bureautiques au service des projets.</p></div></article>
+        <article class="gallery-card gallery-featured reveal" data-category="textile"><div class="gallery-image"><img src="assets/tshirt-anniversaire.jpeg" alt="T-shirt noir personnalisé avec un visuel d’anniversaire" loading="lazy"><span class="image-tag">Textile personnalisé</span></div><div class="gallery-meta"><h3>Des créations à votre image</h3><p>Des visuels pensés pour les moments qui comptent.</p></div></article>
+
+        <article class="gallery-card reveal" data-category="print"><div class="gallery-image"><img src="assets/flyer-bongoville.jpg" alt="Flyer imprimé pour l’événement Bongoville en feu" loading="lazy"><span class="image-tag">Flyer · Événementiel</span></div><div class="gallery-meta"><h3>Bongoville en feu</h3><p>Création graphique et impression d’un flyer pour un événement musical.</p></div></article>
+       
+        <article class="gallery-card reveal" data-category="print"><div class="gallery-image"><img src="assets/optique-univers.jpg" alt="Flyer imprimé pour Univers Optique" loading="lazy"><span class="image-tag">Flyer · Impression</span></div><div class="gallery-meta"><h3>Univers Optique</h3><p>Impression d’un support publicitaire pour un professionnel de l’optique.</p></div></article>
+        <article class="gallery-card reveal" data-category="print"><div class="gallery-image"><img src="assets/foire-independance.jpg" alt="Banderole de la Foire de l’Indépendance à Francevilleland" loading="lazy"><span class="image-tag">Banderole · Événementiel</span></div><div class="gallery-meta"><h3>Foire de l’Indépendance</h3><p>Réalisation d’une banderole pour un événement à Francevilleland.</p></div></article>
+      </div>
+      <nav class="gallery-pagination" id="galleryPagination" aria-label="Pages des réalisations"></nav>
+    </div></section>
+
+    <section class="about-section section-pad"><div class="container about-grid">
+      <div class="about-photo reveal"><img src="assets/local-franceville.jpeg" alt="Le lieu d’activité de Lib’Services à Franceville" loading="lazy"><div class="photo-stamp"><strong>LIB’</strong><span>Services</span></div></div>
+      <div class="about-copy reveal"><p class="eyebrow eyebrow-orange">Notre approche</p><h2>Du premier échange<br>au <span>résultat final.</span></h2><p>Chaque projet commence par une écoute attentive. Nous clarifions le besoin, proposons une solution cohérente et avançons avec vous sur les détails importants.</p><div class="process-list"><div><span>01</span><p><strong>Comprendre</strong><small>Votre besoin, votre public, vos objectifs.</small></p></div><div><span>02</span><p><strong>Concevoir</strong><small>Une proposition adaptée à votre projet.</small></p></div><div><span>03</span><p><strong>Réaliser</strong><small>Un rendu soigné, avec un suivi clair.</small></p></div></div></div>
+    </div></section>
+
+    <section class="contact-section section-pad" id="contact"><div class="container contact-grid">
+      <div class="contact-copy reveal"><p class="eyebrow">À vous de jouer</p><h2>Parlons de votre<br><span>prochain projet.</span></h2><p>Décrivez votre projet : votre demande sera préparée dans WhatsApp pour l’envoyer directement à Lib’Services.</p><div class="contact-promise"><span>✓</span><p><strong>Simple et direct</strong><small>Quelques informations suffisent pour commencer.</small></p></div><div class="contact-promise"><span>✓</span><p><strong>Adapté à votre besoin</strong><small>Impression, numérique, formation ou plusieurs services.</small></p></div></div>
+      <form class="contact-form reveal" id="contact-form">
+        <div class="form-top"><span class="form-kicker">NOUVELLE DEMANDE</span><h3>Présentez-nous votre idée</h3><p>Les champs marqués * sont obligatoires.</p></div>
+        <div class="form-grid"><label>Nom complet *<input name="name" required autocomplete="name" placeholder="Votre nom"></label><label>Téléphone *<input name="phone" required autocomplete="tel" placeholder="Votre numéro"></label><label class="field-wide">E-mail<input name="email" type="email" autocomplete="email" placeholder="vous@exemple.com"></label><label class="field-wide">Service souhaité *<select name="service" id="service" required><option value="">Sélectionner un service</option><option>Impression et communication visuelle</option><option>Textile personnalisé</option><option>Informatique et solutions numériques</option><option>Site web vitrine</option><option>Formation et accompagnement</option><option>Plusieurs services / autre</option></select></label><label class="field-wide">Votre projet *<textarea name="details" rows="4" required placeholder="Que souhaitez-vous réaliser ? Précisez les quantités ou le délai si vous les connaissez."></textarea></label></div>
+        <button class="button form-submit" type="submit">Envoyer ma demande sur WhatsApp <span>↗</span></button><p class="form-note">WhatsApp s’ouvrira avec votre demande préremplie. Vérifiez le message puis appuyez sur Envoyer pour nous le transmettre.</p><div class="form-result" id="form-result" aria-live="polite" hidden></div>
+      </form>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="#accueil"><img src="assets/logo.jpeg" alt="" class="brand-logo"><span>Lib’<b>Services</b></span></a><p>Transformez vos idées en résultats.</p><a href="#accueil" class="back-top">Retour en haut ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> Lib’Services  - +241 077855883</span><span>Franceville · Gabon</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
